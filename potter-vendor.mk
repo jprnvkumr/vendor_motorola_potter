@@ -1375,7 +1375,10 @@ PRODUCT_COPY_FILES += \
      vendor/motorola/potter/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so:/system/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so \
      vendor/motorola/potter/proprietary/vendor/lib64/lib-imsrcs-v2.so:/system/vendor/lib64/lib-imsrcs-v2.so \
      vendor/motorola/potter/proprietary/vendor/lib64/lib-imsrcsbaseimpl.so:/system/vendor/lib64/lib-imsrcsbaseimpl.so \
-     vendor/motorola/potter/proprietary/vendor/lib64/lib-siputility.so:/system/vendor/lib64/lib-siputility.so
+     vendor/motorola/potter/proprietary/vendor/lib64/lib-siputility.so:/system/vendor/lib64/lib-siputility.so \
+     vendor/motorola/potter/proprietary/vendor/etc/diracmobile.config:/system/vendor/etc/diracmobile.config \
+     vendor/motorola/potter/proprietary/vendor/lib/libDiracAPI_SHARED.so:/system/vendor/lib/libDiracAPI_SHARED.so \
+     vendor/motorola/potter/proprietary/vendor/lib/soundfx/libdirac.so:/system/vendor/lib/soundfx/libdirac.so
 
 PRODUCT_PACKAGES += \
     TimeService \
